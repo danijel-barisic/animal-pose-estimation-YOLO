@@ -1,0 +1,65 @@
+path: D:\Tomi\Faks\neumreYolo\dataset  # dataset root dir
+train: train  # train images (relative to 'path') 4 images
+val: val  # val images (relative to 'path') 4 images
+test: test # test images (optional)
+
+nc: 54
+# Keypoints
+kpt_shape: [17, 3]  # number of keypoints, number of dims (2 for x,y or 3 for x,y,visible)
+#flip_idx: [0, 2, 1, 4, 3, 6, 5, 8, 7, 10, 9, 12, 11, 14, 13, 16, 15]
+
+names:
+  - antelope
+  - argali sheep
+  - bison
+  - buffalo
+  - cow
+  - sheep
+  - arctic fox
+  - dog
+  - fox
+  - wolf
+  - beaver
+  - alouatta
+  - monkey
+  - noisy night monkey
+  - spider monkey
+  - uakari
+  - deer
+  - moose
+  - hamster
+  - elephant
+  - horse
+  - zebra
+  - bobcat
+  - cat
+  - cheetah
+  - jaguar
+  - king cheetah
+  - leopard
+  - lion
+  - panther
+  - snow leopard
+  - tiger
+  - giraffe
+  - hippo
+  - chimpanzee
+  - gorilla
+  - orangutan
+  - rabbit
+  - skunk
+  - mouse
+  - rat
+  - otter
+  - weasel
+  - raccoon
+  - rhino
+  - marmot
+  - squirrel
+  - pig
+  - mole
+  - black bear
+  - brown bear
+  - panda
+  - polar bear
+  - bat
